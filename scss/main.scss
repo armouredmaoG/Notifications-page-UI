@@ -1,0 +1,32 @@
+@import 'config';
+@import 'header';
+@import 'notifications';
+body{
+    background-color: $body-color;
+    // height: 100vh;
+    font-family: 'face', sans-serif;
+    font-weight: 500;
+    color: hsl(219, 12%, 42%);
+    line-height: 1.2;
+    font-size: 1rem;
+}
+
+h1, h2, h3{
+    font-weight: 400;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: #f2f2f2;
+
+    .attribution a{
+        color: hsl(219, 85%, 26%);
+    }
+}

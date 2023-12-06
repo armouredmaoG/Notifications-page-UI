@@ -1,0 +1,90 @@
+.notifications-container{
+    .notifications{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .unread{
+            background-color: hsl(210, 60%, 98%);
+        }
+
+        .notification{
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            gap: 0.5rem;
+            padding: 0.75rem;
+            border-radius: 10px;
+        
+            .profile-pic-container{
+                width: 40px;
+                height: 40px;
+        
+                .profile-pic{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        
+            .notificationName-and-time{
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                
+                .notificationName
+                {
+                    .circle{
+                        display: inline-flex;
+                        vertical-align: middle;
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: $unread-circle-color;
+                    }
+                }
+        
+                .message-container{
+                    border: 1px solid hsl(205, 33%, 90%);
+                    border-radius: 5px;
+                    padding: 0.75rem;
+                    display: flex;
+                    // flex-shrink: 1;
+                    cursor: pointer;
+                    p{
+                        word-wrap: break-word;
+                    }
+                }
+                .message-container:hover{
+                    background-color: hsl(211, 68%, 94%);
+                }
+            }
+        
+            .name{
+                color: hsl(224, 21%, 14%);
+                font-weight: 800;
+                cursor: pointer;
+            }
+            .name:hover{
+                color: hsl(219, 85%, 26%);
+            }
+            .post-name{
+                font-weight: 800;
+                cursor: pointer;
+            }
+            .post-name:hover{
+                color: hsl(219, 85%, 26%);
+            }
+        
+            .group-name{
+                color: $group-name-text-color;
+                font-weight: 800;
+                cursor: pointer;
+            }
+        
+            
+        }
+
+    }
+}
+
+

@@ -1,0 +1,19 @@
+$body-color: hsl(210, 60%, 98%);
+// $primary-color: pink;
+$body-text-color: hsl(224, 21%, 14%);;
+$unread-circle-color: hsl(1, 90%, 64%); 
+$group-name-text-color: hsl(219, 85%, 26%); 
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // overflow: hidden;
+}
+
+
+@font-face {
+    font-family: face;
+    src: url(../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
