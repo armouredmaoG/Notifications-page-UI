@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Notifications-page-UI](https://github.com/armouredmaoG/Notifications-page-UI)
+- Live Site URL: [Notifications-page-UI-Live](https://armouredmaog.github.io/Notifications-page-UI/)
 
 ## My process
 
